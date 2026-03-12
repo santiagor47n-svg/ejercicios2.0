@@ -1,0 +1,13 @@
+cmake_minimum_required(VERSION 3.10)
+
+project(Ejercicios_DSPS)
+
+set(CMAKE_CXX_STANDARD 17)
+
+add_executable(parking_system leetcode/ParkingSystem.cpp)
+
+add_executable(armstrong exercism/Amstrong_numbers.cpp)
+
+add_executable(hamming exercism/Hamming_distance.cpp)
+
+add_executable(space_age exercism/Space_age.cpp)
